@@ -5,7 +5,11 @@ import cv2
 import AprilTagModule
 
 ##################################################
-motor = Motor(2,3,4,17,22,27)
+motor = Motor(2, 3, 17, 22)  # PWM_A, DIR_A, PWM_B, DIR_B
+# PWM_A = 2   # PWM pin for motor A
+# DIR_A = 3   # Direction pin for motor A
+# PWM_B = 17  # PWM pin for motor B
+# DIR_B = 22  # Direction pin for motor B
 ##################################################
 
 def main():
