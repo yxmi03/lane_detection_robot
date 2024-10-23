@@ -129,7 +129,8 @@ def getLaneCurve(img, display=2):
 
  
 if __name__ == '__main__':
-    cap = cv2.VideoCapture('lane_detection_2_april_tag copy/vid2.mp4')
+    # cap = cv2.VideoCapture('lane_detection_2_april_tag copy/vid2.mp4')
+    cap = cv2.VideoCapture(0)
     initialTrackBarVals = [102, 80, 20, 214]
     utils.initializeTrackbars(initialTrackBarVals)
     frameCounter = 0
